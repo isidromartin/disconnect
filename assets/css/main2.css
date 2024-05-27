@@ -9,20 +9,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.sorts {
-  font-family: "Sorts Mill Goudy", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.tit {
-  color: white;
-}
-
-.tit .sticky {
-  color: rgb(0, 0, 0);
-}
-
 .sorts-mill-goudy-regular-italic {
   font-family: "Sorts Mill Goudy", serif;
   font-weight: 400;
@@ -1495,7 +1481,7 @@ ol {
     color: #ff6b81 !important;
   }
   .header .navbar-nav .nav-item a {
-    color: #051441;
+    /*color: #051441;*/
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1589,7 +1575,7 @@ ol {
     color: #ff6b81 !important;
   }
   .header .navbar-nav .nav-item a {
-    color: #051441;
+    color: #ffffff;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1598,6 +1584,7 @@ ol {
     justify-content: space-between;
     padding: 10px 0;
   }
+
   .header .navbar-nav .nav-item a::after {
     opacity: 1;
     visibility: visible;
@@ -1692,8 +1679,8 @@ ol {
 
 .navbar-expand-lg .navbar-nav {
   margin: 0;
-  margin-left: auto !important;
-  margin-right: auto !important;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header .navbar .navbar-nav .nav-item a.active {
@@ -2045,7 +2032,7 @@ ol {
   line-height: 50px;
   color: #fff;
   text-shadow: 0px 3px 8px #00000017;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 
 .hero-area .hero-content h1 span {
@@ -2308,7 +2295,7 @@ ol {
 
 .our-achievement .title h2 {
   color: #fff;
-  font-weight: 700;
+  /* font-weight: 700; */
   font-size: 35px;
   margin-bottom: 10px;
 }
@@ -2975,4 +2962,10 @@ ol {
 .footer .footer-newsletter .newsletter-form .button .btn:hover {
   color: #ff6b81;
   background-color: #fff;
+}
+
+.sorts {
+  font-family: "Sorts Mill Goudy", serif;
+  font-weight: 400;
+  font-style: normal;
 }
